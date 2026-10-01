@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Google Colab / temporary files
+/content/
+/tmp/
+
+# Datasets
+raw_dataset.zip
+deepfake_dataset/
+dataset/
+data/
+
+# Model training artifacts
+*.log
+runs/
+wandb/
+
+# Environment / secrets
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,34 @@
+{
+    "model": "EfficientNet-B0",
+    "checkpoint_epoch": 10,
+    "test_samples": 1905,
+    "accuracy": 0.9774278215,
+    "precision": 0.9762611276,
+    "recall": 0.9811133201,
+    "f1": 0.9786812097,
+    "roc_auc": 0.9970731783,
+    "confusion_matrix": [
+        [
+            875,
+            24
+        ],
+        [
+            19,
+            987
+        ]
+    ],
+    "jpeg_q80": {
+        "accuracy": 0.7948,
+        "precision": 0.7207,
+        "recall": 0.998,
+        "f1": 0.837,
+        "roc_auc": 0.9191
+    },
+    "jpeg_q50": {
+        "accuracy": 0.7706,
+        "precision": 0.6977,
+        "recall": 0.998,
+        "f1": 0.8213,
+        "roc_auc": 0.8688
+    }
+}
