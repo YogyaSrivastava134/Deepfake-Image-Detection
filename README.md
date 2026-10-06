@@ -1,4 +1,4 @@
-# Deepfake Face Image Detection using EfficientNet-B0
+# Deepfake Face Image Detection using EfficientNet-B0 Version 1
 
 An end-to-end computer vision pipeline built with PyTorch to detect AI-generated human faces (StyleGAN / StyleGAN2). This project leverages a pretrained **EfficientNet-B0** backbone fine-tuned for high-accuracy binary classification, featuring strict **leakage-safe dataset splitting**, comprehensive augmentation audits, and robustness analysis.
 
